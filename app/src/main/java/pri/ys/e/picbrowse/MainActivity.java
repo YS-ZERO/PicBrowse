@@ -4,10 +4,7 @@ import android.os.Bundle;
 
 import net.ys.base.BaseActivity;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import ys.picbrowse.view.PicPageOptionView;
+import pri.ys.picbrowse.PicPageOptionView;
 
 public class MainActivity extends BaseActivity {
 
@@ -26,12 +23,6 @@ public class MainActivity extends BaseActivity {
                 showToast(item);
             }
         });
-
-        List<String> list = new ArrayList<String>();
-        for (int i = 0; i < 15; i++) {
-            list.add("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png");
-        }
-
 
 
     }

@@ -1,4 +1,4 @@
-package ys.picbrowse.view;
+package pri.ys.picbrowse;
 
 import android.app.Activity;
 import android.content.Context;
@@ -25,7 +25,6 @@ import net.ys.utils.ImgTypeCast;
 import java.util.ArrayList;
 import java.util.List;
 
-import ys.picbrowse.R;
 
 /**
  * Created by YS on 2016/1/12.

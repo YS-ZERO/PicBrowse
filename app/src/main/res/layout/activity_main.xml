@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="pri.ys.e.picbrowse.MainActivity">
 
-    <ys.picbrowse.view.PicPageOptionView
+    <pri.ys.picbrowse.PicPageOptionView
         android:id="@+id/pic_page_option"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
