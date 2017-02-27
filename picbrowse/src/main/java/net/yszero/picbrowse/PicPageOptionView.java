@@ -19,7 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import net.ys.utils.ImgTypeCast;
+import net.yszero.ysutils.utils.ImgTypeCast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -124,6 +124,21 @@ public class PicPageOptionView extends LinearLayout implements
         }
     }
 
+    /**
+     * 设置标签
+     *
+     * @param titles
+     */
+    public void setTitles(String[] titles) {
+        if (titles.length > 5) {   //如果长度大于5
+            return;
+        }
+        int n = 0;
+        for (String t : titles) {
+            tvs[n].setText(t);
+            n++;
+        }
+    }
 
     private List<View> mPageList;
     private ViewPagerAdapter mViewPagerAdapter;
@@ -424,7 +439,7 @@ public class PicPageOptionView extends LinearLayout implements
     }
 
     /***
-     * 设置图片页选择接口
+     * 设置图片页点击事件
      *
      * @param listener
      */
