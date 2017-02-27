@@ -18,7 +18,7 @@ allprojects {
 
 ```
 dependencies {
-    compile 'com.github.yszero:YSUtils:v1.0.1'
+    compile 'com.github.yszero:PicBrowse:v1.0.0'
 }
 ```
 
