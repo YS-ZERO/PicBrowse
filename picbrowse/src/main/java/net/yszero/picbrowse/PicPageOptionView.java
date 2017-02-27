@@ -1,4 +1,4 @@
-package pri.ys.picbrowse;
+package net.yszero.picbrowse;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,7 +18,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 import net.ys.utils.ImgTypeCast;
 

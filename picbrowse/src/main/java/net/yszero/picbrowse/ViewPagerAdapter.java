@@ -1,4 +1,4 @@
-package pri.ys.picbrowse;
+package net.yszero.picbrowse;
 
 
 import android.support.v4.view.PagerAdapter;

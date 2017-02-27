@@ -1,10 +1,10 @@
-package pri.ys.e.picbrowse;
+package net.yszero.picbrowse.test;
 
 import android.os.Bundle;
 
 import net.ys.base.BaseActivity;
+import net.yszero.picbrowse.PicPageOptionView;
 
-import pri.ys.picbrowse.PicPageOptionView;
 
 public class MainActivity extends BaseActivity {
 
