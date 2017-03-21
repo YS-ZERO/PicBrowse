@@ -1,6 +1,6 @@
 # PicBrowse
 
-模仿[美食杰App](http://www.meishij.net)中的一个View做的，代码有些乱，我会慢慢整理的。。。
+模仿[美食杰App](http://www.meishij.net)中的一个View做的。。。
 
 <img src="/example.gif" width="256" height="512"/>
 
